@@ -32,7 +32,7 @@ Copyright © All rights Reserved
 ----------------------*/
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: "El Messiri", sans-serif;
     position: relative;
 }
 
@@ -54,16 +54,16 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 300;
-    color: #26dddd;
+    color: #1f3f74;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: rgba(21,138,186,1);
-    font-size: 33px;
+    color: #1f3f74;
+    font-size: 35px;
     font-weight: 500;
 }
 .align-right {
@@ -79,17 +79,15 @@ h4 {
     font-weight: 500;
     color: #000000;
 }
-
 h5 {
     font-size: 28px;
     font-weight: 300;
     color: #633991;
     margin-bottom: 0.7rem;
 }
-.gradient-custom { /* fallback for old browsers */ background: #4facfe; /* Chrome 10-25,
-    Safari 5.1-6 */ background: -webkit-linear-gradient(to bottom right, rgba(79, 172, 254,
-    1), rgba(0, 242, 254, 1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
-    Safari 7+ */ background: linear-gradient(to bottom right, rgba(79, 172, 254, 1), rgba(0,
+.gradient-custom { /* fallback for old browsers */ background: #1f3f74; /* Chrome 10-25,
+    Safari 5.1-6 */ background: -webkit-linear-gradient(#1f3f74); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
+    Safari 7+ */ background: linear-gradient(to bottom right, #1f3f74, rgba(0,
     242, 254, 1)) }
 .comments {
     font-size: 15px;
@@ -114,7 +112,7 @@ h5 {
   }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
     color: #4d5c63;
 }
 
@@ -131,58 +129,7 @@ p.lead {
     font-weight: 300;
 }
 
-.btn {
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding: 0.375rem 1.35rem;
-    transition: all 0.3s ease;
-}
 
-.btn-outline-light:hover {
-    color: #d6619c;
-}
-
-.btn-primary {
-    border-radius: 3px;
-    background-image: -moz-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background-image: -webkit-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background-image: -ms-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background: radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
-    font-weight: 500;
-    padding: 0.6rem 2rem;
-    border: 0;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary:not([disabled]):not(.disabled).active,
-.btn-primary:not([disabled]):not(.disabled):active,
-.show>.btn-primary.dropdown-toggle {
-    background-image: radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
-    color: #FFF;
-}
-
-.btn-light {
-    border-radius: 3px;
-    background: #FFF;
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
-    font-size: 14px;
-    font-weight: 500;
-    color: #633991;
-    margin: 0.5rem;
-    padding: 0.7rem 1.6rem;
-    line-height: 1.8;
-}
-
-.btn-group-lg>.btn,
-.btn-lg {
-    padding: 0.8rem 1rem;
-    font-size: 15px;
-}
 
 .light-bg {
     background-color: #faf6fb;
@@ -225,7 +172,7 @@ p.lead {
     background-image: -moz-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
     background-image: -webkit-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
     background-image: -ms-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background: radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
+    background: radial-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -243,7 +190,7 @@ p.lead {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
-        font-size: 14px;
+        font-size: 20px;
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
@@ -276,17 +223,17 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background-image: -webkit-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background-image: -ms-radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
-    background: radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
+    background-image: -moz-radial-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
+    background-image: -webkit-radial-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
+    background-image: -ms-radial-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
+    background: radial-gradient(circle, #1f3f74 4%, rgb(10, 10, 10) 78%);
 }
 
 .tagline {
-    font-size: 23px;
-    font-weight: 300;
+    font-size: 35px;
+    font-weight: 700;
     color: #dcebfa;
-    max-width: 800px;
+    max-width: 830px;
     margin: 0 auto;
 }
 .discount {
@@ -331,16 +278,18 @@ header {
 
 .gradient-fill:before {
     color: #87CEFA;
-    background: -moz-linear-gradient(top, #87CEFA 0%, #043c7c 100%);
-    background: -webkit-linear-gradient(top, #87CEFA 0%, #043c7c 100%);
-    background: radial-gradient(to bottom, #87CEFA 0%, #043c7c 100%);
+    background: -moz-linear-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
+    background: -webkit-linear-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
+    background: radial-gradient(circle, rgb(2, 67, 80) 4%, rgb(10, 10, 10) 78%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .card.features {
-    border: 0;
+    background: none;
+
+    border: none;
     border-radius: 3px;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
@@ -359,24 +308,17 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: radial-gradient(circle, rgba(0,212,255,1) 4%, rgba(21,138,186,1) 78%);
     top: 0;
     bottom: 0;
     left: 0;
 }
 
 .card-text {
-    font-size: 14px;
+    font-size: 20px;
 }
-
-.card.features:hover {
-    transform: translateY(-3px);
-    -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
-    -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
+.card-title {
+    font-size: 30px;
+    color: #1f3f74;
 }
 
 .box-icon {
@@ -414,10 +356,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #5892ee 0%, #fb378e 100%);
+    background-image: -webkit-linear-gradient( 122deg, #5892ee 0%, #fb378e 100%);
+    background-image: -ms-linear-gradient( 122deg, #5892ee 0%, #fb378e 100%);
+    background-image: linear-gradient( 122deg, #5892ee 0%, #fb378e 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -632,6 +574,7 @@ header {
 }
 
 .card.pricing .card-body {
+    background: none;
     padding: 1.75rem;
 }
 
@@ -729,4 +672,7 @@ header {
 .whatsapp-button:hover {
     background-color: #128C7E; /* Darker green on hover */
     transition: background-color 0.3s;
+}
+.ti-settings {
+    color: orange; /* Change icon color to orange */
 }

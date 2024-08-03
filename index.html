@@ -10,8 +10,9 @@
     <link rel="icon" type="image/png" href="images/logo.png">
 
     <!-- Font -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -53,9 +54,11 @@
     <!--Starting header-->
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
-            <h1>AM Designer </h1>
-            <p class="tagline"> اغتنم الفرصة وصمم مشروعك الأن مع خصم <span class="discount">30%</span> لفترة محدودة <br>
-            إجذب عملائك بفاعلية مع تصاميم سوشيال ميديا إبداعية تزيد من نسبة مبيعاتك </p>
+            <h1 style ="color: #ffffff;">AM Designer </h1>
+            <p class="tagline"">
+                <span style="color: yellow">إغتنم الفرصة</span> وصمم مشروعك الآن <span style="color: yellow;">بخصم يصل إلي 30%</span> لفترة محدودة إجذب عملائك بفاعلية مع تصاميم سوشيال ميديا إبداعية<br> <span style="color: yellow;" > تزيد من نسبة مبيعاتك</span>
+            </p>
+            
         </div>
         <a href="https://wa.me/201091129624" class="btn btn-light" style="background-color: white; color: green; margin-top: 20px; font-size: 30px; padding: 10px 20px; text-decoration: none; display: inline-flex; align-items: center;">
             <img src="images/WhatsApp.svg" height="35" width="35" alt="icon" style="margin-right: 8px;">
@@ -87,57 +90,39 @@
 
     <div class="section light-bg" id="features">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title text-center">
                 <h3>خطوات تصميم السوشيال ميديا</h3>
             </div>
-
             <div class="row flex-row-reverse">
-                <div class="col-12 col-lg-4">
-                    <div class="card features d-flex h-100">
-                        <div class="card-body text-right">
-                            <div class="media">
-                                <div class="media-body">
-                                    <h4 class="card-title">البحث والتحليل</h4>
-                                    <p class="card-text">جمع المعلومات وفهم متطلبات العميل والجمهور المستهدف</p>
-                                </div>
-                                <span class="ti-search gradient-fill ti-3x ml-3"></span>
-                            </div>
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="card features d-flex h-100 text-center">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <span class="ti-search gradient-fill ti-3x mb-3"></span>
+                            <h4 class="card-title">البحث والتحليل</h4>
+                            <p class="card-text">جمع المعلومات وفهم متطلبات العميل والجمهور المستهدف</p>
                         </div>
                     </div>
                 </div>
-            
-                <div class="col-12 col-lg-4">
-                    <div class="card features d-flex h-100">
-                        <div class="card-body text-right">
-                            <div class="media">
-                                <div class="media-body">
-                                    <h4 class="card-title">التخطيط</h4>
-                                    <p class="card-text">وضع الأفكار الأولية وإختيار الألوان والخطوط</p>
-                                </div>
-                                <span class="ti-settings gradient-fill ti-3x ml-3"></span>
-                            </div>
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="card features d-flex h-100 text-center">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <span class="ti-settings gradient-fill ti-3x mb-3"></span>
+                            <h4 class="card-title">التخطيط</h4>
+                            <p class="card-text">وضع الأفكار الأولية وإختيار الألوان والخطوط</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features d-flex h-100">
-                        <div class="card-body text-right">
-                            <div class="media">
-                                <div class="media-body">
-                                    <h4 class="card-title">التطوير والمراجعة</h4>
-                                    <p class="card-text">إنشاء العمل النهائي وتقديم التصميم للعميل وإجراء التعديلات المطلوبة</p>
-                                </div>
-                                <span class="ti-pencil gradient-fill ti-3x ml-3"></span>
-                            </div>
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="card features d-flex h-100 text-center">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <span class="ti-pencil gradient-fill ti-3x mb-3"></span>
+                            <h4 class="card-title">التطوير والمراجعة</h4>
+                            <p class="card-text">إنشاء العمل النهائي وتقديم التصميم للعميل وإجراء التعديلات المطلوبة</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
     </div>
     <!-- // end of second features section -->
          <!--end of features -->
@@ -172,41 +157,50 @@
                 </div>
         
                 <script>
-                // Set the date we're counting down to (August 1, 2024 12:00:00)
-                const countDownDate = new Date("August 1, 2024 12:00:00").getTime();
-                
-                // Update the countdown every second
-                const x = setInterval(function() {
-                
-                    // Get today's date and time
-                    const now = new Date().getTime();
-                
-                    // Calculate the distance between now and the countdown date
-                    const distance = countDownDate - now;
-                
-                    // Time calculations for days, hours, minutes, and seconds
-                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                
-                    // Display the countdown in the respective HTML elements
-                    document.querySelector('.countdown-days').innerHTML = formatTime(days);
-                    document.querySelector('.countdown-hours').innerHTML = formatTime(hours);
-                    document.querySelector('.countdown-minutes').innerHTML = formatTime(minutes);
-                    document.querySelector('.countdown-seconds').innerHTML = formatTime(seconds);
-                
-                    // If the countdown is finished, clear the interval
-                    if (distance < 0) {
-                      clearInterval(x);
-                      document.getElementById("countdown").innerHTML = "الوقت المناسب";
-                    }
-                }, 1000);
+                // Set the countdown duration to 2 hours
+                const countdownDuration = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
                 
                 // Function to add leading zeros to numbers
                 function formatTime(time) {
                     return time < 10 ? `0${time}` : time;
                 }
+    
+                // Function to start the countdown
+                function startCountdown() {
+                    // Get the current time and calculate the countdown end time
+                    const now = new Date().getTime();
+                    const countDownDate = now + countdownDuration;
+    
+                    // Update the countdown every second
+                    const x = setInterval(function() {
+                        // Get the current time
+                        const now = new Date().getTime();
+    
+                        // Calculate the distance between now and the countdown end time
+                        const distance = countDownDate - now;
+    
+                        // Time calculations for days, hours, minutes, and seconds
+                        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+                        // Display the countdown in the respective HTML elements
+                        document.querySelector('.countdown-days').innerHTML = formatTime(days);
+                        document.querySelector('.countdown-hours').innerHTML = formatTime(hours);
+                        document.querySelector('.countdown-minutes').innerHTML = formatTime(minutes);
+                        document.querySelector('.countdown-seconds').innerHTML = formatTime(seconds);
+    
+                        // If the countdown is finished, reset it
+                        if (distance < 0) {
+                            clearInterval(x);
+                            startCountdown(); // Restart the countdown
+                        }
+                    }, 1000);
+                }
+    
+                // Start the countdown on page load
+                startCountdown();
                 </script>
                        
                 <!-- Centering the button -->
@@ -214,7 +208,8 @@
                     <a href="https://wa.me/201091129624" class="btn btn-light" style="background-color: white; color: green; margin-top: 20px; font-size: 30px; padding: 10px 20px; text-decoration: none; display: inline-flex; align-items: center;">
                         <img src="images/WhatsApp.svg" height="35" width="35" alt="icon" style="margin-right: 8px;">
                         تواصل معنا الأن
-                      </a>                </div>
+                    </a>
+                </div>
             </div> 
         </div>
         
