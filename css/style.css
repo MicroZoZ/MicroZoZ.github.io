@@ -258,16 +258,16 @@ header {
     background-image: -ms-radial-gradient(circle, #1f3f74 4%, rgb(10, 10, 10) 78%);
     
 }
-/* .tagline span {
+.tagline span {
     font-size: 38px;
     font-weight: 700;
 
-} */
+}
 .tagline {
-    font-size: 38px;
-    font-weight: 700;
+    font-size: 37px;
+    font-weight: 600;
     color: #dcebfa;
-    max-width: 860px;
+    max-width: 845px;
     margin: 0 auto;
 }
 .discount {
@@ -297,14 +297,7 @@ header {
     }
 }
 
-@media (max-width:767px) {
-    .tagline {
-        font-size: 17px;
-    }
-    .img-holder {
-        padding-bottom: 100%;
-    }
-}
+
 
 
 /* FEATURES
