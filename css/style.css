@@ -258,14 +258,14 @@ header {
     background-image: -ms-radial-gradient(circle, #1f3f74 4%, rgb(10, 10, 10) 78%);
     
 }
-.tagline span {
+/* .tagline span {
     font-size: 38px;
     font-weight: 700;
 
-}
+} */
 .tagline {
-    font-size: 36px;
-    font-weight: 690;
+    font-size: 38px;
+    font-weight: 700;
     color: #dcebfa;
     max-width: 860px;
     margin: 0 auto;
